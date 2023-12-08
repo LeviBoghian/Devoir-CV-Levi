@@ -6,7 +6,7 @@ p, li {
     font-family: 'Raleway';
 }
 
-.header {
+header {
     display: flex;
     position: absolute;
     justify-content: center;
@@ -38,7 +38,7 @@ header img {
     height: 1545px;
 }
 
-.droite {
+.xp-agrements-skills {
     display: flex;
     position: relative;
     width: 774px;
@@ -48,7 +48,7 @@ header img {
 
 
 }
-.gauche {
+.about {
     display: flex;
     position: relative;
     flex-direction: column;
@@ -61,7 +61,7 @@ header img {
     text-align: left;
 
 }
-.nav {
+.address {
     position: relative;
     flex-direction: row;
     top: 400px;
@@ -73,7 +73,7 @@ header img {
     align-items: center;
 
 }
-nav a {
+address a {
     text-decoration: none;
     color: white;
     font-size: 17px;
